@@ -9,7 +9,7 @@ var inputPath = process.argv[2],
 
 if (!inputPath || !outputPath || !fs.existsSync(inputPath)) {
     console.log('Input and output filenames are required as arguments. Input file needs to exist.');
-    console.log("e.g. ./wpe_merge input.csv output.csv");
+    console.log('e.g. ./wpe_merge input.csv output.csv');
     process.exit(1);
 }
 
