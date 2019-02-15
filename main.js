@@ -4,7 +4,6 @@ var fs = require('fs'),
 
 var inputPath = process.argv[2],
     outputPath = process.argv[3],
-    apiBase = 'http://interview.wpengine.io/v1/accounts/',
     startTime = new Date().getTime();
 
 if (!inputPath || !outputPath || !fs.existsSync(inputPath)) {
